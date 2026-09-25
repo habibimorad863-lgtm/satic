@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#163c38"/><stop offset=".55" stop-color="#b79b5c"/><stop offset="1" stop-color="#eee5d0"/></linearGradient></defs>
+<rect width="1200" height="1200" fill="url(#g)"/>
+<circle cx="600" cy="560" r="270" fill="#f0e8d8" opacity=".92"/>
+<path d="M470 410 Q600 300 730 410 L700 760 Q600 850 500 760Z" fill="#17433f"/>
+<circle cx="600" cy="560" r="120" fill="none" stroke="#c9ad67" stroke-width="28"/>
+<text x="600" y="1030" text-anchor="middle" fill="#fff" font-family="Arial" font-size="48">MINAKARI</text>
+</svg>
