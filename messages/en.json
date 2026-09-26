@@ -30,7 +30,9 @@
     "material": "Material",
     "dimensions": "Dimensions",
     "sku": "SKU",
-    "contact": "Contact for collaboration"
+    "contact": "Contact for collaboration",
+    "category": "Category",
+    "detailsLink": "Details →"
   },
   "b2b": {
     "title": "Corporate solutions",

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import {useTranslations} from "next-intl";
 import type {Locale} from "@/data/products";
 
 export function ProductCard({
@@ -15,6 +16,7 @@ export function ProductCard({
   locale: Locale;
 }) {
   const content = product.translations[locale];
+  const t = useTranslations("common");
 
   return (
     <article className="product-card">
@@ -32,7 +34,7 @@ export function ProductCard({
         <h3>{content.name}</h3>
         <p>{content.short}</p>
         <Link href={`/${locale}/products/${product.slug}`} className="text-link">
-          Details →
+          {t("detailsLink")}
         </Link>
       </div>
     </article>

@@ -1,10 +1,11 @@
-import {getTranslations} from "next-intl/server";
+import {getTranslations, unstable_setRequestLocale as setRequestLocale} from "next-intl/server";
 import type {Locale} from "@/data/products";
 import {products} from "@/data/products";
 import {ProductCard} from "@/components/product-card";
 
 export default async function ProductsPage({params}: {params: Promise<{locale:string}>}) {
   const {locale} = await params;
+  setRequestLocale(locale);
   const l = locale as Locale;
   const t = await getTranslations();
 
