@@ -6,7 +6,7 @@ A deliberately simple, code-first, production-oriented static website foundation
 
 - Next.js App Router
 - TypeScript
-- next-intl for FA/EN/AR
+- next-intl for FA/EN/AR/ZH
 - Plain CSS (no Tailwind, no UI framework)
 - React Three Fiber for the optional 3D studio
 - No database
@@ -43,6 +43,7 @@ Open:
 - http://localhost:3000/fa
 - http://localhost:3000/en
 - http://localhost:3000/ar
+- http://localhost:3000/zh
 
 ## Verification
 
@@ -81,6 +82,7 @@ Translations:
 `messages/fa.json`
 `messages/en.json`
 `messages/ar.json`
+`messages/zh.json`
 
 Global visual system:
 

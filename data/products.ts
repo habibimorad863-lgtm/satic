@@ -1,4 +1,6 @@
-export type Locale = "fa" | "en" | "ar";
+import type {AppLocale} from "@/i18n/routing";
+
+export type Locale = AppLocale;
 
 export type Product = {
   slug: string;
@@ -46,6 +48,13 @@ export const products: Product[] = [
         description: "مزيج من الشكل المعاصر وفن المينا للهدايا المؤسسية وبرامج التكريم.",
         material: "معدن ومينا",
         dimensions: "حسب المشروع"
+      },
+      zh: {
+        name: "珐琅高管礼品套装",
+        short: "适用于高管礼赠与正式场合的精致企业套装。",
+        description: "以当代设计语言诠释波斯珐琅工艺，适合企业礼赠表彰项目。",
+        material: "金属与珐琅",
+        dimensions: "可按项目定制"
       }
     }
   },
@@ -79,6 +88,13 @@ export const products: Product[] = [
         description: "قطعة معمارية تجمع بين الخرسانة والمينا للمناسبات وبرامج التكريم.",
         material: "خرسانة ومينا",
         dimensions: "قابلة للتخصيص"
+      },
+      zh: {
+        name: "珐琅混凝土企业奖杯",
+        short: "面向活动与表彰的现代奖项器物。",
+        description: "融合混凝土与珐琅的建筑感造型，适用于企业典礼与表彰活动。",
+        material: "混凝土与珐琅",
+        dimensions: "支持定制"
       }
     }
   },
@@ -109,6 +125,13 @@ export const products: Product[] = [
         description: "قطعة بسيطة بسطح مينا للمكاتب والهدايا المؤسسية.",
         material: "سيراميك ومينا",
         dimensions: "قابلة للتخصيص"
+      },
+      zh: {
+        name: "珐琅桌面摆件",
+        short: "适合高管办公桌与企业空间的雅致摆件。",
+        description: "极简造型搭配珐琅表面，适用于办公环境与商务礼赠。",
+        material: "陶瓷与珐琅",
+        dimensions: "支持定制"
       }
     }
   }
